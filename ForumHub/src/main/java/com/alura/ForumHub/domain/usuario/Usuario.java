@@ -1,11 +1,12 @@
-package com.alura.ForumHub.domain;
+package com.alura.ForumHub.domain.usuario;
 
-import forum.hub.api.domain.perfil.Perfil;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
+
+import com.alura.ForumHub.domain.perfil.Perfil;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.alura.ForumHub.domain;
+package com.alura.ForumHub.domain.usuario;
 
 public record DadosListagemUsuario(
         Long id,

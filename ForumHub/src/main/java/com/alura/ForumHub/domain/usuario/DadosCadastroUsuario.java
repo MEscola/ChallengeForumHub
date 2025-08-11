@@ -1,4 +1,4 @@
-package com.alura.ForumHub.domain;
+package com.alura.ForumHub.domain.usuario;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
